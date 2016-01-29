@@ -17,15 +17,16 @@ Turn a camel-case string into a hyphenated string
 ```js
 var hyphenate = require('@f/hyphenate')
 
+hyphenate('backgroundColor') === 'background-color'
 ```
 
 ## API
 
-### hyphenate(arg)
+### hyphenate(str)
 
-- `arg` -
+- `str` - The string you want to hyphenate
 
-**Returns:**
+**Returns:** `str`, lowercased and hyphenated
 
 ## License
 
